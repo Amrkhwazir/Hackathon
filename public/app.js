@@ -37,7 +37,7 @@ getPost()
   
     div.innerHTML = ` <div class="postContent container-fluid py-2 rounded-2 d-flex direction-column">
     <p id="postTitle" class="mx-2">${postTitle}</p> 
-    <img class="userImg " src="./assets/profileImage.jpg" alt="" height="45px">
+    <img class="userImg " src="../assets/profileImage.jpg" alt="" height="45px">
     <p class="usrName mt-2 mx-2">${activeAuthrDetail?.firstName} ${activeAuthrDetail?.lastName}</p>
     <p id="postTime" class="mx-2">${new Date(time.seconds * 1000).toLocaleString()}</p> 
     <p class="postText mt-4">${postData}</p>
