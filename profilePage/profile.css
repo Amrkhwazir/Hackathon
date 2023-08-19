@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+
+
+/* navbarSection */
+#navBar{
+    height: 50px;
+    background-color:#7749f8 !important;
+}
+
+.websiteName p{
+color:  white;
+font-weight: 500;
+position: absolute;
+top: 15px;
+left: 80px;
+}
+
+
+/* userdetailArea */
+#profileBox{
+    max-width: 85% !important;
+    margin-left: 100px;
+}
+.userDetailArea{
+    position: relative;
+    background-color: white;
+}
+.activeUserDetail{
+    background-color: rgb(210, 207, 207);
+    font-weight: 500;
+}
+.background{
+   height: 240px;
+   background-color: #7749f8;
+   color: white;
+   border: none !important;
+   font-weight: 500;
+   border-radius: 10px 10px 10px 10px;
+}
+#follower{
+   font-size: 18px !important;
+   left: 15px;
+}
+#following{
+   font-size: 18px !important;
+   right: 15px !important;
+}
+
+.userDetailArea img{
+   position: absolute;
+   top: 160px;
+   left: 43%;
+   width: 140px;
+   height: 150px;
+   border-radius: 50%;
+}
+.userDetail{
+    max-width: 700px;
+}
+
+.profileBtn:active{
+   background-color: rgb(67, 67, 67);
+   opacity: 0.1;
+   transform: scale(0.8);
+}
+
+/* profile edit */
+
+#editprofile{
+position: relative;
+height: 50px;
+}
+
+#editBtn{
+    position: absolute;
+    right: 10px;
+    width:110px;
+    height: 30px;
+    border: none;
+    background-color: rgb(28, 212, 150);
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* update modal */
+
+#modalHeadArea{
+    position: relative;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    height: 70px;
+}
+
+#modalHeadArea h5{
+position: absolute;
+left: 170px;
+top: 20px;
+}
+
+#closeBtn{
+    background-color: white;
+}
+
+#footer{
+    background-color: rgb(67, 67, 67);
+}
+
+/* post Area seccion*/
+
+#UserPostArea{
+    margin-left: 65px;
+    padding: 20px;
+    height: 500px;
+}
+#ContentBox{
+    height: 470px;
+    overflow: auto;
+}
+.postArea{
+    background-color: white;
+    margin-top: 20px;
+}
+
+ .postContent{
+    position: relative;
+ }
+ #postTime{
+    position: absolute;
+    bottom: -10px;
+    left: 60px;
+ }
+ .postText{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+ }
+ .postImage{
+    height: 330px;
+    /* border: 1px solid black; */
+ }
+ .postImage .img-fluid{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+ }
+ #image_input{
+    display: none;
+ }

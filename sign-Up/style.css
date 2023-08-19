@@ -1,0 +1,48 @@
+body{
+    background-color: #7749f8 !important;
+}
+
+
+/* navbarSection */
+#navBar{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color:#7749f8 !important;
+}
+#loginUserLetter a{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 15px;
+    right: 120px;
+    color:  white !important;
+    text-decoration: none;
+    font-weight: 500;
+   
+}
+.websiteName p{
+color:  white;
+font-weight: 500;
+position: absolute;
+top: 15px;
+left: 80px;
+}
+
+#rigesterBtn{
+    background-color: #7749f8 ;
+    color: white;
+}
+
+#signForm{
+    background-color: white;
+    border: 1px solid aliceblue;
+    margin: 50px 350px;
+}
+
+#signForm input{
+    border: 2px solid #7749f8 !important;
+}
+
+#signForm input::placeholder{
+    color: gray;
+}
